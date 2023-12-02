@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Mulish", serif;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: full;
+}
+.leftSection {
+  width: 35vw;
+  height: 100vh;
+  background-color: #f4f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftSection img {
+  width: 406px;
+  height: 406px;
+  mix-blend-mode: multiply;
+}
+.rightSection {
+  width: 65vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rightWrapper {
+  width: 450px;
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+}
+.sign_up {
+  font-size: 12px;
+  align-self: end;
+}
+.sign_up a {
+  color: #0066ff;
+  font-weight: 700;
+}
+.wrapper {
+  margin-top: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  gap: 5px;
+}
+h1 {
+  color: #333333;
+  font-size: 22px;
+  font-weight: 700;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+label {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #333333;
+}
+input {
+  width: 350px;
+  height: 45px;
+  border-radius: 4px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+input[type="text"] {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  border: 1px #d8d8d8 solid;
+  background-color: #f8f8f8;
+  padding: 0 12px;
+}
+#password {
+  background: url(/puplic/assets/icons/eye.svg) no-repeat scroll 320px 15px;
+  padding-left: 10px;
+  background-color: #f8f8f8;
+}
+input[type="submit"] {
+  background-color: #0066ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.forgot {
+  color: #0066ff;
+  font-weight: 400;
+  font-size: 12px;
+}
+.or_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  gap: 5px;
+}
+.divider {
+  width: 170px;
+  height: 0px;
+  border: 1px #f0f0f0 solid;
+}
+.or {
+  font-weight: 400;
+  font-size: 12px;
+  color: #757575;
+}
+.loginOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h3 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+}
+.options {
+  display: flex;
+  gap: 10px;
+}
+.options div {
+  width: 40px;
+  height: 40px;
+  border-radius: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.google {
+  /* background-color: #ffffff; */
+  border: 1px #ececec solid;
+}
+.microsoft {
+  background-color: #30302f;
+}
+.yahoo {
+  background-color: #8e3a96;
+}
+.apple {
+  background-color: #000000;
+}
+.facebook {
+  background-color: #4c79bd;
+}
